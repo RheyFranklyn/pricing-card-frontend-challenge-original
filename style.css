@@ -1,0 +1,86 @@
+body{
+  padding: 10%;
+}
+main{
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 600px;
+  font-family: 'Karla';
+  color: white;
+  border-radius: 5px;
+}
+h2{
+  color: #2ab2af;
+  margin:0px;
+}
+.first-container{
+  padding: 20px;
+}
+.first-container > p{
+  color: #98a6bd;
+  line-height: 3px;
+}
+.first-container > h4{
+  color: #c0df34;
+}
+.second-container{
+  background-color: hsl(179, 62%, 43%);
+  padding: 20px 0px 0px 20px;
+  border-bottom-left-radius: 5px;
+}
+.second-container h4{
+  margin: 0px;
+}
+.second-container p{
+  font-size: 14px;
+}
+.price{
+  margin-top: 35px;
+  display: flex;
+}
+.price-cost{
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px; 
+}
+.btn{
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #c0df34;
+  width: 92%;
+}
+.btn:hover{
+  background-color: #A9C42D;
+  transform: scale(1.02);
+  cursor: pointer;
+ 
+}
+.month{
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 8px;
+}
+.third-container{
+  background-color: #2EBFBD;
+  padding-bottom: 50px;
+  border-bottom-right-radius: 5px;
+}
+.third-container ul{
+  padding-left: 30px;
+  list-style-type: none;
+  opacity: 0.8;
+  font-size: 14px;
+}
+.third-container h4{
+  margin-left: 30px;
+}
+.second-container, .third-container{
+  width: 50%;
+}
+.sec-container{
+  display: flex;
+  margin-top: 20px;
+}
